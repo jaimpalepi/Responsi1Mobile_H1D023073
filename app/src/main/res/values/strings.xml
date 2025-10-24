@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Responsi 1 Mobile (H1D023073)</string>
+    <string name="desc">Ipswich Town Football Club adalah klub sepak bola profesional yang berbasis di Ipswich, Suffolk, Inggris. Mereka berkompetisi
+        di Championship, tingkat kedua dari sistem
+        liga sepak bola Inggris, setelah dipromosikan
+        dari League One pada musim 2022-23. Klub ini
+        didirikan pada tahun 1878 tetapi baru menjadi
+        profesional pada tahun 1936.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipswich_town_history">Ipswich Town History"></string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ClubHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_club_stadium"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_ipswich_town_stadium"
+            android:contentDescription="Ipswich Town Stadium" />
+
+        <TextView
+            android:id="@+id/tv_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Ipswich Town FC History"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_club_history_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Ipswich Town Football Club didirikan pada tahun 1878 sebagai klub amatir. Mereka baru menjadi profesional pada tahun 1936 dan segera terpilih ke Football League pada tahun 1938.\n\nPuncak kesuksesan klub datang di bawah manajemen Sir Alf Ramsey dan kemudian Sir Bobby Robson. Ramsey membawa mereka dari Divisi Tiga (Selatan) ke Juara Liga Inggris pada tahun 1962, sebuah prestasi luar biasa yang dicapai hanya dalam musim pertama mereka di divisi teratas. Ini tetap menjadi satu-satunya gelar liga mereka hingga saat ini.\n\nEra Sir Bobby Robson di akhir 1970-an dan awal 1980-an adalah periode emas lainnya. Ipswich memenangkan Piala FA pada tahun 1978 dan, yang paling terkenal, Piala UEFA pada tahun 1981. Selama masa ini, mereka secara konsisten menjadi salah satu tim top di Inggris dan Eropa, menampilkan pemain-pemain legendaris seperti Kevin Beattie, Paul Mariner, dan duo Belanda Arnold Mühren dan Frans Thijssen.\n\nSetelah era keemasan ini, klub mengalami pasang surut, termasuk degradasi dari Liga Premier pada tahun 2002. Setelah bertahun-tahun di Championship, mereka terdegradasi ke League One pada tahun 2019. Namun, di bawah manajemen Kieran McKenna, klub membangun kembali dan mendapatkan promosi kembali ke Championship pada tahun 2023, membawa optimisme baru bagi para penggemar di Portman Road." />
+
+    </LinearLayout>
+</ScrollView>

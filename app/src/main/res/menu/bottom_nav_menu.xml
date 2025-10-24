@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clubHistoryFragment"
+        android:icon="@drawable/ic_history"
+        android:title="Club History" />
+    <item
+        android:id="@+id/coachFragment"
+        android:icon="@drawable/ic_coach"
+        android:title="Head Coach" />
+    <item
+        android:id="@+id/squadFragment"
+        android:icon="@drawable/ic_squad"
+        android:title="Team Squad" />
+</menu>
